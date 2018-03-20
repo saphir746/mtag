@@ -20,6 +20,8 @@ from ldsc_mod.ldscore import allele_info
 
 import ldsc_mod.munge_sumstats as munge_sumstats
 
+print("All initial librarires loaded")
+
 __version__ = '1.0.7'
 
 borderline = "<><><<>><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>"
@@ -47,6 +49,8 @@ pd.set_option('colheader_justify', 'left')
 
 np.set_printoptions(linewidth=800)
 np.set_printoptions(precision=3)
+
+print("Header printed in log file")
 
 ## General helper functions
 def safely_create_folder(folder_path):
